@@ -2,6 +2,8 @@
 
 .faq {
     padding: 5.6vw;
+    
+
 
     h2{
         text-align: center;
@@ -9,11 +11,13 @@
     }
 
     &__question {
+        
+        
 
         &__item{
             background-color: #13151d;
             margin-bottom: 16px;
-        
+            
             &__question {
                 color: #fff;
                 font-size: 20px;
