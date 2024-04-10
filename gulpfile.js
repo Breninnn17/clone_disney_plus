@@ -21,6 +21,18 @@ function images() {
         .pipe(gulp.dest ('./dist/images'));
 }
 
+function images() {
+    return gulp.src('./src/velozes/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest ('./dist/velozes+'));
+}
+
+function images() {
+    return gulp.src('./src/elenco/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest ('./dist/elenco'));
+}
+
 exports.default = gulp.parallel(styles, images, scripts);
 
 exports.watch = function() {

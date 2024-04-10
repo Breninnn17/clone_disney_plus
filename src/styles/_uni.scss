@@ -1,0 +1,11 @@
+.uni{
+    padding: 5.6vw;
+    min-height: 80vh;
+    text-align: center;
+
+    @media (max-width: 768px) {
+        padding-top:calc(50vw + 25px) ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: -55px;}
+}
